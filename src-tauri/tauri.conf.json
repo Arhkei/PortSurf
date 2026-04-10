@@ -12,9 +12,12 @@
   "app": {
     "windows": [
       {
-        "title": "portsurf",
-        "width": 800,
-        "height": 600
+        "title": "PortSurf",
+        "width": 1000,
+        "height": 720,
+        "minWidth": 700,
+        "minHeight": 500,
+        "resizable": true
       }
     ],
     "security": {
