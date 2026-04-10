@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node / SvelteKit / Vite
+node_modules
+/build
+/.svelte-kit
+/package
+.vercel
+.output
+*.log
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Rust / Cargo
+src-tauri/target/
+# Ignore the cargo lock only if you are building a library, 
+# but for a Tauri app, most people KEEP Cargo.lock.
+
+# Tauri build artifacts
+src-tauri/WixTools/
+src-tauri/gen/
+src-tauri/binaries/
+
+# Editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
