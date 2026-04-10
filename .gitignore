@@ -22,8 +22,6 @@ vite.config.ts.timestamp-*
 
 # Rust / Cargo
 src-tauri/target/
-# Ignore the cargo lock only if you are building a library, 
-# but for a Tauri app, most people KEEP Cargo.lock.
 
 # Tauri build artifacts
 src-tauri/WixTools/
